@@ -1,4 +1,4 @@
-api_key: "AIzaSyCARAbHz2Mr3gl5-nN0apQNN_pyYYcgk6w"
+api_key: "[YOUR API KEY]"
 satellite_output_directory: data/Satellite_images
 
 model_paths:
