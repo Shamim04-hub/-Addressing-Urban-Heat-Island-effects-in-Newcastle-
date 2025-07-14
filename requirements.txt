@@ -1,0 +1,16 @@
+requests
+pyyaml
+torch
+opencv-python
+pandas
+numpy
+ultralytics
+segment_anything
+torchvision
+scikit-image
+folium
+geopandas
+KeplerGl
+osmnx
+onnxruntime
+shapely
