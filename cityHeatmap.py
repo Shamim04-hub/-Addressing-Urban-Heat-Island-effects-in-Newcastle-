@@ -268,7 +268,7 @@ def create_heatmap(place, polygon_coords, api_keys, api_limit_per_key, output_di
                 }}
             </script>
             <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCARAbHz2Mr3gl5-nN0apQNN_pyYYcgk6w&callback=initMap&libraries=visualization"></script>
+                    src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY]&callback=initMap&libraries=visualization"></script>
         </body>
         </html>
         """
@@ -292,11 +292,11 @@ if __name__ == "__main__":
     ]
     api_keys = {
         # Dictionary of API keys, with years as keys
-        "2025": "a2759d2dddab4902a9d153546251104",
-        "2024": "569caa9859774a6a8df110656251004",
-        "2023": "96e6083ee12b4cde823110618251004",
-        "2022": "ef1d941088a644fbae670321251004",
-        "2021": "2e134d0ba0164aa3a02115920251704"
+        "2025": "[YOUR API KEY]",
+        "2024": "[YOUR API KEY]",
+        "2023": "[YOUR API KEY]",
+        "2022": "[YOUR API KEY]",
+        "2021": "[YOUR API KEY]"
     }
      # Limit for API requests per key (to avoid exceeding usage quotas)
     api_limit_per_key = 1
